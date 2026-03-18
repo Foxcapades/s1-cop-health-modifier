@@ -1,0 +1,3 @@
+= Schedule I - Cop HP Modifier
+
+Makes cops notice when you have an illegal item equipped.
