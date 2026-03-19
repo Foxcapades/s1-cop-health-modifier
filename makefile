@@ -1,5 +1,5 @@
 PROJECT_ID := CopHealthModifier
-VERSION := $(shell grep 'MelonInfo' $(PROJECT_ID)/Mod.cs | cut -d'"' -f4 | tr -d '\n')
+VERSION := $(shell grep 'MelonInfo' $(PROJECT_ID)/Mod.cs | cut -d'"' -f2 | tr -d '\n')
 
 CONFIGURATION := IL2Cpp
 LOWER_CONFIG := $(shell echo $(CONFIGURATION) | tr A-Z a-z)

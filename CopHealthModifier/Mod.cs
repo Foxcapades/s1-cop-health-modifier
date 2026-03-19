@@ -10,7 +10,7 @@ using ScheduleOne.Police;
 using ScheduleOne.PlayerScripts;
 #endif
 
-[assembly: MelonInfo(typeof(CopHealthModifier.Mod), CopHealthModifier.Mod.MOD_NAME, "1.0.0", "Foxcapades")]
+[assembly: MelonInfo(typeof(CopHealthModifier.Mod), CopHealthModifier.Mod.MOD_NAME, "1.1.0", "Foxcapades")]
 [assembly: MelonGame("TVGS", "Schedule I")]
 
 #nullable enable
